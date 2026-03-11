@@ -1,0 +1,113 @@
+
+body {
+  background: linear-gradient(135deg, #e3f0ff 0%, #f9e7ff 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  color: #2a2a2a;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #4f8cff 60%, #a16ae8 100%) !important;
+  box-shadow: 0 2px 8px rgba(80, 80, 160, 0.08);
+}
+
+.navbar-brand span {
+  color: #fff !important;
+  letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin-right: 8px;
+  transition: color 0.2s;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffe066 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4f8cff;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+a, .App-link {
+  color: #a16ae8;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #4f8cff;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(80, 80, 160, 0.06);
+}
+.table thead {
+  background: linear-gradient(90deg, #4f8cff 60%, #a16ae8 100%);
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f3f7ff;
+}
+.table-bordered th, .table-bordered td {
+  border-color: #a16ae8;
+}
+
+.btn, .btn-primary {
+  background: linear-gradient(90deg, #4f8cff 60%, #a16ae8 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(80, 80, 160, 0.08);
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #a16ae8 60%, #4f8cff 100%);
+  color: #ffe066;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(80, 80, 160, 0.10);
+  margin-bottom: 2rem;
+}
+.card-title {
+  color: #a16ae8;
+  font-size: 2rem;
+}
+
+/* Modals */
+.modal-content {
+  border-radius: 16px;
+  background: #fff;
+}
+.modal-header {
+  background: linear-gradient(90deg, #4f8cff 60%, #a16ae8 100%);
+  color: #fff;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.modal-footer {
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+/* Formulários */
+.form-control:focus {
+  border-color: #a16ae8;
+  box-shadow: 0 0 0 0.2rem rgba(161, 106, 232, 0.25);
+}
+.form-label {
+  color: #4f8cff;
+  font-weight: 600;
+}
